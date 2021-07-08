@@ -1,5 +1,6 @@
 package calender;
 
+<<<<<<< HEAD
 import java.util.Scanner;
 
 public class calender {
@@ -80,5 +81,8 @@ public class calender {
 //				break;
 //		}
 	}
+=======
+public class calender {
+>>>>>>> refs/remotes/origin/master
 
 }
