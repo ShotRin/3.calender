@@ -70,11 +70,12 @@ public class Cal {
 		int calday = calDay();
 		int fblank = 7 - calday; // 빈칸을 제외한 첫재쭐 날짜표기하는 개수
 
-		int isDay;
-		int[][] dalday;
+		int isDay; // 윤년일 경우 a_day 저장 평년일 경우 n_day 저장
+		int[][] dalday; // 2차 0번인덱스엔 날짜 1번 인덱스에는 일정이 있으면 1 없으면 0
 		String[] day = { "Sun", "Mon", "Tus", "Wed", "Thu", "Fri", "Sat" };
-		String noSche = "     ";
-		String yesSche = "  *  ";
+		
+		String noSche = "     "; // 스케줄이 없는 경우
+		String yesSche = "  *  ";// 스케줄이 있는 경우
 
 		int[][] daylist = spSche(schedule);
 
