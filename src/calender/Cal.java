@@ -187,7 +187,7 @@ public class Cal {
 		// HashMap<string,string>의 요소를 나누어서
 		// 2차원 배열에 int형으로 저장
 		// 일정을 나눠 담는 함수
-
+//		int yandere;
 		int ymdre = 0;
 
 		ArrayList<String> list = new ArrayList<>(); // 일정의 개수는 가변이라
